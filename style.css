@@ -410,6 +410,7 @@ html {
 }
 footer {
   padding: 0 4rem;
+  margin-bottom: 1rem;
 }
 .footer-container {
   display: flex;
@@ -441,6 +442,8 @@ footer {
 .contact-info li {
   margin-bottom: 10px;
   color: #333;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 .contact-info li i {
   color: #0f5d62;
@@ -453,6 +456,15 @@ footer {
 .footer-links li {
   margin-bottom: 10px;
   color: #333;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.footer-links li:hover a {
+  color: #0f5d62;
 }
 .f-right {
   margin-top: 2rem;
